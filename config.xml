@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+	version="1.0.0.0" id="Cm to mm">
+
+  <name>Cm to mm</name>
+
+  <author>Alex Guilmoto</author>
+
+  <description>
+       Converter
+  </description>
+  
+	<feature id="blackberry.app" version="1.0.0.0" required="true"/>
+	<feature id="blackberry.invoke" version="1.0.0.0" required="true"/>
+	<feature id="blackberry.connection" />
+
+  
+  <rim:permissions>
+    <rim:permit></rim:permit>
+  </rim:permissions>
+
+  <rim:loadingScreen backgroundColor="#CFCFCF"
+                     foregroundImage="res/screen/blackberry/1024by768_00005.png"
+		     onFirstLaunch="true">
+    <rim:transitionEffect type="fadeOut" />
+  </rim:loadingScreen>
+
+  <content src="index.html" />
+
+</widget>
